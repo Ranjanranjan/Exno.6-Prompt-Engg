@@ -38,6 +38,9 @@ Choose a task that is common across AI tools, such as:
 
 Example: Compare summarization by ChatGPT (OpenAI) and Cohere.
 
+### Prompt:
+"Write Python code that uses OpenAI and Cohere APIs to summarize a list of texts.For each text, get summaries from both APIs, analyze word count and sentiment using TextBlob, and save the combined results as a JSON file.Use environment variables for API keys and keep the code clean and well-structured."
+
 ### Step 2: Configure API Access
 Register for the respective API services and store the API keys securely using environment variables:
 ```python
